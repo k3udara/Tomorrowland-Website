@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+	font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+nav{
+    position: absolute;
+    width: 93%;
+    z-index: 1000;
+
+   
+}
+*{
+	font-family: 'Poppins', sans-serif;
+}
+
+#logo1{
+    position: absolute;
+    height: 40px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#navlist li{position:relative;
+    display: inline ;
+            padding-top: 20px;
+            padding: 10px;
+            float:right;
+            margin-left: 20px;
+            border-radius: 8px;
+            padding-top: 20px;
+            
+            background-color: #000000;
+            font-family: 'Poppins', sans-serif;
+            }
+
+    a{color: rgb(255, 253, 253);
+            } 
+
+            
+
+#navlist li:hover {
+        
+            background-color: blueviolet;
+            padding: 10px;
+            padding-top: 15px;
+            transition-duration: 1s;
+            }
+a{text-decoration: none;}
+
+
+#page{
+    margin-top: 0px;
+    height:70px;
+    background-color:rgb(0, 0, 0);;}
+	
+
+
+   
+
+body {
+ background-image: url('photos/start_BG.jpg');
+ background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+ color: white;
+}
+
+.welcome{
+    padding: 10px 25px 10px 25px;
+    background-image: url('photos/welcome_img.jpg');
+    text-align: center;
+    font-size: 45px;
+    border: 1px solid white;
+}
+.section{
+    width: 53%;
+    margin-left: 23.5%;
+    margin-top:0;
+    margin-bottom:0;
+    padding: 50px 0;
+}
+.title{
+    padding-top: 30px;
+    padding-bottom: 25px;
+    color:rgb(184, 0, 184);
+    text-align: center;
+    font-size: 35px;
+}
+.Starting{
+    position: relative;
+    top: 10%;
+    border: 2px solid white;
+    display:list-item;
+    background: #000000;
+    opacity: o,9;
+    color: #ffffff;
+}
+ol.a{
+    color:#ffffff;
+    opacity: 10;
+    font-size: 25px;
+    font-family: Serif;
+    margin-left: 100px;
+}
+
+
+.start  {
+position: relative;
+    left: 40%;
+    text-align: center;
+ --glow-color: rgb(235, 235, 235);
+ --glow-spread-color: rgba(88, 88, 88, 0.781);
+ --enhanced-glow-color: rgb(235, 235, 235);
+ --btn-color: rgb(88, 88, 88, 0.781);
+ border: .25em solid var(--glow-color);
+ padding: 1em 3em;
+ color: var(--glow-color);
+ font-size: 15px;
+ font-weight: bold;
+ background-color: var(--btn-color);
+ border-radius: 5px;
+ outline: none;
+ box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 1em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+ text-shadow: 0 0 .5em var(--glow-color);
+ position: relative;
+ transition: all 0.3s;
+}
+
+.start::after {
+ pointer-events: none;
+ content: "";
+ position: absolute;
+ top: 120%;
+ left: 0;
+ height: 100%;
+ width: 100%;
+ background-color: var(--glow-spread-color);
+ filter: blur(2em);
+ opacity: .7;
+ transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+}
+
+.start:hover {
+ color: var(--btn-color);
+ background-color: var(--glow-color);
+ box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 2em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+}
+
+start:active {
+ box-shadow: 0 0 0.6em .25em var(--glow-color),
+        0 0 2.5em 2em var(--glow-spread-color),
+        inset 0 0 .5em .25em var(--glow-color);
+}
+.btn {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+
+
+/*--------------- footer ---------------*/ 
+
+
+.footer_main {
+    height: 5%;
+    border-top: 1px solid white;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+.footer_main img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer_main h3, .footer_main p {
+    text-align: center;
+}
+.footer_main p {
+    font-size: 13px;
+}
+.nav-links2 {
+    flex: 1;
+    text-align: center;
+}
+.nav-links2 ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 50px;
+    position: relative;
+}
+.nav-links2 ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.edited{
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);    
+}
+.edited a:link,a:visited{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.edited a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <script defer src="quiz.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="quiz.css">
+
+</head>
+
+<body id="body">
+
+    <nav> 
+      <img id="logo1" src="photos/logo1.png" alt="logo">
+       <div id="page">
+      
+        <ul id = "navlist">
+              <li><a  href ="sitemap.html">Site Map</a></li>
+              <li><a  href ="ABOUTUS.html">About us</a></li>
+              <li><a  href="form.html">Contact us</a></li>
+              <li><a  href="additional.html">More Info</a></li>
+              <li><a  href="quiz.html">Quiz</a></li>
+              <li><a  href ="">Gallery</a></li>
+              <li><a  href ="">Store</a></li>
+              <li><a  href ="">Home</a></li>
+         
+        </ul>
+       </div>
+    </nav>
+    <section class="contain">
+        <div class="heading_main">
+            <div class="heading">
+                <h1>QUIZ</h1>
+            </div>
+        </div>
+        <div class="time_div">
+            <h3 class="time">Seconds Left: <span id="time-left">60</span></h3>
+        </div>
+        <button id="start" class="start" onclick="setTimeout(getRadioValue,60000);btnColor();enable();">Let's start!</button>
+
+        <div class="queset" id="qContainer">
+            <div class="title">
+                <h3>Question 1</h3>
+            </div>
+            <div class="question" >In which year did Tomorrowland first take place?</div>
+            <label for="True1" class="option" id="correct1"><input type="radio" name="op1" id="True1"  > 2005</label>
+            <label for="False1.1" class="option"><input type="radio" name="op1" id="False1.1" > 2004</label>
+            <label for="False1.2" class="option"><input type="radio" name="op1" id="False1.2" > 2003</label>
+            <label for="False1.3" class="option"><input type="radio" name="op1" id="False1.3" > 2002</label>
+
+        </div>
+        <div class="queset">
+            <div class="title">
+                <h3>Question 2</h3>
+            </div>
+            <div class="question" >Which of the following is NOT a real Tomorrowland theme? </div>
+            <label for="False2.1" class="option"><input type="radio" name="op2" id="False2.1"> Masker </label>
+            <label for="True2" class="option" id="correct2"><input type="radio" name="op2" id="True2"> The Hidden Kingdom of Melody</label>
+            <label for="False2.2" class="option"><input type="radio" name="op2" id="False2.2"> The arising of life</label>
+            <label for="False2.3" class="option"><input type="radio" name="op2" id="False2.3"> Amicorum Spectaculum</label>
+        </div>
+        <div class="queset">
+            <div class="title">
+                <h3>Question 3</h3>
+            </div>
+            <div class="question" >Which of the following artists performed at the 1st Tomorrowland?</div>
+            <label for="True3" class="option" id="correct3"><input type="radio" name="op3" id="True3"  > Armin Van Buuren </label>
+            <label for="False3.1" class="option"><input type="radio" name="op3" id="False3.1" > Moby </label>
+            <label for="False3.2" class="option"><input type="radio" name="op3" id="False3.2" > Hardwell </label>
+            <label for="False3.3" class="option"><input type="radio" name="op3" id="False3.3" > Laidback Luke</label>
+        </div>
+        <div class="queset">
+            <div class="title">
+                <h3>Question 4</h3>
+            </div>
+            <div class="question" >The short-lived American spin-off "Tomorrowland" was held in which US city?</div>
+            <label for="False4.1" class="option"><input type="radio" name="op4" id="False4.1"  > New York </label>
+            <label for="False4.2" class="option"><input type="radio" name="op4" id="False4.2" > San Diego </label>
+            <label for="False4.3" class="option"><input type="radio" name="op4" id="False4.3" > Los Angeles</label>
+            <label for="True4" class="option" id="correct4"><input type="radio" name="op4" id="True4"  > Atlanta</label>
+        </div>
+        <div class="queset">
+            <div class="title">
+                <h3>Question 5</h3>
+            </div>
+            <div class="question">How many days is Tomorrowland festival?</div>
+            <label for="True5" class="option" id="correct5"><input type="radio" name="op5" id="True5"  > 2 days </label>
+            <label for="False5.1" class="option"><input type="radio" name="op5" id="False5.1" > 3 days</label>
+            <label for="False5.2" class="option"><input type="radio" name="op5" id="False5.2" > 4 days </label>
+            <label for="False5.3" class="option"><input type="radio" name="op5" id="False5.3" > 5 days</label>
+        </div>
+        <div class="queset">
+            <div class="title">
+                <h3>Question 6</h3>
+            </div>
+            <div class="question" >Who was the surprise act at the 2019 edition of the festival?</div>
+            <label for="False6.1" class="option"><input type="radio" name="op6" id="False6.1"  > Knife party</label>
+            <label for="False6.2" class="option"><input type="radio" name="op6" id="False6.2" > Axwell^Ingrosso </label>
+            <label for="True6" class="option" id="correct6"><input type="radio" name="op6" id="True6" > 3 are legend</label>
+            <label for="False6.3" class="option"><input type="radio" name="op6" id="False6.3"  > Swedish House Mafia</label>
+        </div>
+
+        <div class="queset">
+            <div class="title">
+                <h3>Question 7</h3>
+            </div>
+            <div class="question" >A third day was added to Tomorrowland in what year?</div>
+            <label for="False7.1" class="option"><input type="radio" name="op7" id="False7.1"  > 2009</label>
+            <label for="False7.2" class="option"><input type="radio" name="op7" id="False7.2" > 2010</label>
+            <label for="True7" class="option" id="correct7"><input type="radio" name="op7" id="True7" > 2011</label>
+            <label for="False7.3" class="option"><input type="radio" name="op7" id="False7.3"  > 2012</label>
+        </div>
+        <div class="queset">
+            <div class="title">
+                <h3>Question 8</h3>
+            </div>
+            <div class="question" >Where did the short lived 2015-2016 Tomorrowland spin-off take place?</div>
+            <label for="False8.1" class="option"><input type="radio" name="op8" id="False8.1"  > spain </label>
+            <label for="True8" class="option" id="correct8"><input type="radio" name="op8" id="True8" > Brazil</label>
+            <label for="False8.2" class="option"><input type="radio" name="op8" id="False8.2" > Japan</label>
+            <label for="False8.3" class="option"><input type="radio" name="op8" id="False8.3"  > Canada</label>
+        </div>
+        <div class="queset">
+            <div class="title">
+                <h3>Question 9</h3>
+            </div>
+            <div class="question" >The winter spin--off "Tomorrowland Winter"?</div>
+            <label for="False9.1" class="option"><input type="radio" name="op9" id="False9.1"  > Belgium</label>
+            <label for="False9.2" class="option"><input type="radio" name="op9" id="False9.2" > Netherlands </label>
+            <label for="True9" class="option" id="correct9"><input type="radio" name="op9" id="True9" > France</label>
+            <label for="False9.3" class="option"><input type="radio" name="op9" id="False9.3"  > Germany</label>
+        </div>
+        <div class="queset">
+            <div class="title">
+                <h3>Question 10</h3>
+            </div>
+            <div class="question" >Which of the following artists is NOT a contributor on the 2011 festival anthem "The way we see the world? "</div>
+            <label for="False10.1" class="option"><input type="radio" name="op10" id="False10.1"> NERVO </label>
+            <label for="True10" class="option" id="correct10"><input type="radio" name="op10" id="True10" > Steve Aoki</label>
+            <label for="False10.2" class="option"><input type="radio" name="op10" id="False10.2" > Afrojack</label>
+            <label for="False10.3" class="option"><input type="radio" name="op10" id="False10.3" > Dimitri Vegas & like Mike</label>
+        </div>
+        <div class="resultContainer" id="result" style="display: none;"></div>
+        <div class="submit_btn"><input type="submit" class="submit" value="submitQuiz" onclick="getRadioValue();"></div>
+
+        <div id="results">
+            <h2>You scored:</h2>
+        </div>
+    </section>
+         <div class="footer_main">
+            <img src="photos/logo2.png" alt="footer">
+            <h3>Tomorrowland - Sri Lanka</h3>
+            <p>The official fan page for Sri Lanka Tomorrowland Fans.</p>
+            <p class="since">&#169; 2022, All Right Reserved.</p>
+         </div>
+        <div class="edited">
+            <h6>Page Developed by <a href="developer.html">
+                &nbsp;Udara Kaushalee</a></h6>
+        </div>
+
+    <script src="js/quiz.js"></script>
+
+
+</body>
+
+</html>

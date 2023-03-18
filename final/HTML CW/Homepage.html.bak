@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="with=device-width, intial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Tomorrowland | Home</title>
+        <link rel="stylesheet" href="HomepageCSS.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body id="backtotopbtn">
+        <nav class="navigation"> 
+            <a href="Homepage.html"><img id="logo1" src="images/logo1.png" alt=""></a>
+            <div id="page">              
+                <ul id = "navlist">               
+                    <li><a  href ="">Site Map</a></li>
+                    <li><a  href ="">About us</a></li>
+                    <li><a  href="">Contact us</a></li>
+                    <li><a  href="Additional_Page.html">More Info</a></li>
+                    <li><a  href="">Quiz</a></li>
+                    <li><a  href ="">Gallery</a></li>
+                    <li><a  href ="Store.html">Store</a></li>                 
+                    <li><a  href ="Homepage.html">Home</a></li>                
+                </ul>
+            </div>            
+        </nav>
+        <div class="header">
+            
+            <div class="text-box">
+                <img src="images/logo2.png" alt="Tomorrowland Logo">
+                <h1>Tomorrowland Official Fan Page</h1>
+                <p>We are The People of Tomorrow. We believe in enjoying life to the fullest without having to compromise everything. <br>We are responsible for the generation of tomorrow and respect each other and Mother Nature.
+                </p>
+                <a href="#visit" class="home-btn">Visit Us To Know More</a>
+            </div>
+        </div>
+
+        <!--.................Content_01.................-->
+
+        <div class="content-01">
+            <h1 id="visit">Music is our DNA</h1>
+            <p>With 8 stages, and 170+ bands from all over the world, every Tomorrowland lineup <br>makes hands wave, heads nod, and crowds holler.</p>
+            
+            <div class="row">
+                <div class="content-01-col">
+                    <img src="images/homepage/feelCore.jpeg" alt="DJ Booth">
+                    <h3>Feel it to the CORE</h3>
+                    <p>Open from the early afternoon, keen daytime clubbers will find their way to Tomorrowland's world-famous 
+                        CORE stage which returns to the Ella. DJs including 
+                        Joris Voorn and Purple Disco Machine will play the best techno, 
+                        both classic and new while you either fist pump, jump or do some pre-ski warm-up stretches.
+                        </p>
+                </div>
+                <div class="content-01-col">
+                    <img src="images/homepage/openTheCage.jpg" alt="openTheCage">
+                    <h3>Open the Cage to madness</h3>
+                    <p>Cage turns into the best underground techno club in the French Alps on Thursday and Friday. 
+                        On Thursday you can expect melodic house and techno and on Friday there's proper and heavy techno. 
+                        Skilful Electronic Dance Music selectors at Cage include Enrico Sangiuliano, Coone, Mano Le Tough and Mark with a K.
+                        </p>
+                </div>
+                <div class="content-01-col">
+                    <img src="images/homepage/futureFour.jpg" alt="futureFour">
+                    <h3>Future Four</h3>
+                    <p>Nobody can predict the future, but there are some artists so fizzing with potential that their success seems predestined. 
+                        Every fourth Tuesday of the month at 21:00 IST.
+                        In an exclusive one-hour show 4 unique artists will be selected and given an opportunity to showcase their talent. Discover them all in every Tuesday! Keep in touch!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!--....................Content_02...............-->
+
+        <div class="categories">
+            <h1>Recently Unmasked Top Artists</h1>
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="frontgirl"><img src="images/homepage/homegcw.jpg" alt="Content_img_1" class="front"></div>
+                   
+                        <p>Charlotte de Witte
+                            </p>
+                    </div>
+                    <div class="col-3">
+                        <img src="images/homepage/dimihomew.jpg" alt="Content_img_1">
+                        <p>Dimitri Vegas and Like Mike
+                            </p>
+                    </div>
+                    <div class="col-3">
+                        <img src="images/homepage/homemartw.jpg" alt="Content_img_1">
+                        <p>Martin Garrix
+                            </p>
+                    </div>
+                </div>
+                <h4>Recently Unmasked these world famous artists will entertain you <br>
+                     an Unimaginable Musical Exerience. <br>
+                     Visit gallery and Get to know them more!</h4>
+            </div>
+        </div>
+
+
+        <!--.................Latest Products.................-->
+
+        <div class="products">
+            <div class="small-container2">
+                <h1>Latest Products</h1>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="images/store/products/watch_01.jpg" alt="smartwatch">
+                        <h4>Apple Watch Series 7</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p>$450.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/store/products/airpod_01.jpg" alt="airpod">
+                        <h4>Airpods 3 Pro</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <p>$190.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/store/products/hoodie_01.jpg" alt="hoodie">
+                        <h4>Eclipse Hoodie</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p>$50.00</p>
+                    </div>
+                </div>
+                <div class="product-btn-main">
+                    <a href="Store.html" class="product-btn">Shop Now</a>
+                </div>
+            </div>
+        </div>
+
+        <!--..........Content.............._03-->
+
+        <div class="content_03">
+            <h1>Highlights</h1>
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="images/homepage/festivalStories.jpg" alt="Content_img_1">
+                        <h3>Festival Stories</h3>
+                        <p>ellesse introduces Festival Stories with British content creator Tega Alexander. 
+                            He dedicates his year to trying new things and travelling to new destinations. 
+                            Tomorrowland Winter is the ultimate setting for Tega to learn how to ski and enjoy the music in style in picturesque Alpe d'Huez.
+                            </p>
+                    </div>
+                    <div class="col-5">
+                        <img src="images/homepage/armin.jpg" alt="Content_img_1">
+                        <h3>Armin van Buuren live at Tomorrowland Winter</h3>
+                        <p>Be guided with wonderful melodies. Watch Armin van Buuren live from the Mainstage at Tomorrowland Winter in Alpe d'Huez (France).
+                            </p>
+                    </div>
+                    <div class="col-5">
+                        <img src="images/homepage/tWinter.jpg" alt="Content_img_1">
+                        <h3>Tomorrowland Winter DJ Necklace</h3>
+                        <p>All the Tomorrowland Mainstage Artists of Tomorrowland Winter 2022 received an exclusive DJ Necklace 
+                            for their memorable set for the People of Tomorrow. This Limited Edition Necklace features an Angel 
+                            Blue Quartz Crystal underneath the silver Tomorrowland Icon pendant of this high-quality black leather necklace. 
+                            </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="backtotop">
+                <a href="#backtotopbtn" class="backtotop-btn">Back To Top</a>
+            </div>
+
+        </div>
+
+
+        <div class="footer_main">
+            <img src="images/logo2.png" alt="">
+            <h3>Tomorrowland - Sri Lanka</h3>
+            <p>The official fan page for Sri Lanka Tomorrowland Fans.</p>
+            <p class="since">&#169; 2022, All Right Reserved.</p>
+        </div>
+
+    </body>    
+</html>
+
+
